@@ -14,9 +14,9 @@
   "author": "",
   "type": "module",
   "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node server.js"
+"scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
   },
   "dependencies": {
     "cors": "^2.8.6",
@@ -24,6 +24,7 @@
     "dotenv": "^17.4.0",
     "env": "^0.0.2",
     "express": "^5.2.1",
+    "mongoose": "^9.3.3",
     "nodemon": "^3.1.14"
   }
 }
